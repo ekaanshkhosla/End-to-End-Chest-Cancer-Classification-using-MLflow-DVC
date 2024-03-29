@@ -12,3 +12,8 @@
 8. Update the main.py
 9. Update the dvc.yaml
 10. app.py
+
+
+
+
+- Save the URI: 878340278004.dkr.ecr.eu-central-1.amazonaws.com/kidney
