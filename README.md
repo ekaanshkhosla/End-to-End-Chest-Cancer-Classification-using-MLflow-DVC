@@ -1,3 +1,16 @@
 # End-to-End Chest Cancer Classification using MLflow & DVC
 
-This project demonstrates an end-to-end pipeline for classifying chest cancer images using machine learning. The workflow integrates **MLflow** for experiment tracking and model management, and **DVC (Data Version Control)** for efficient dataset and model versioning.
+This project implements an end-to-end chest cancer classification pipeline using **MLflow** and **DVC**.
+
+## **UI Demo**
+The following is a screenshot of the web interface for the chest cancer classification system:
+
+![Chest Cancer Classification UI](assets/ui_demo.png)
+
+Users can upload a **chest scan image**, and the model predicts whether the image is **normal** or indicates cancer.
+
+## **Features**
+- **Machine Learning Model**: Trained using CNN-based deep learning architecture.
+- **Experiment Tracking**: Uses MLflow for logging and tracking experiments.
+- **Data Versioning**: Managed with DVC.
+- **Deployment**: FastAPI-based model deployment.
