@@ -5,7 +5,7 @@ This project implements an end-to-end chest cancer classification pipeline using
 ## **UI Demo**
 The following is a screenshot of the web interface for the chest cancer classification system:
 
-![Chest Cancer Classification UI](assets/ui_demo.png)
+![Chest Cancer Classification UI](Cancer_UI.png)
 
 Users can upload a **chest scan image**, and the model predicts whether the image is **normal** or indicates cancer.
 
