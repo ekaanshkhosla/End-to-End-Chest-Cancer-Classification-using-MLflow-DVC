@@ -13,4 +13,4 @@ Users can upload a **chest scan image**, and the model predicts whether the imag
 - **Machine Learning Model**: Trained using CNN-based deep learning architecture.
 - **Experiment Tracking**: Uses MLflow for logging and tracking experiments.
 - **Data Versioning**: Managed with DVC.
-- **Deployment**: FastAPI-based model deployment.
+- **Deployment**: Flask-based model deployment.
