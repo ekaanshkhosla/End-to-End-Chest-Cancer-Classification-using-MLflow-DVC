@@ -20,25 +20,19 @@ Users can upload a **chest scan image**, and the model predicts whether the imag
 
 ```
 End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/
-│
-├── config/                 # Configuration files
+├── dvc/                      # DVC-related files for versioning datasets
+├── github/workflows/         # GitHub CI/CD workflows
+├── config/                   # Configuration files
 │   ├── __init__.py
 │   └── configuration.py
-│
-├── dvc/                    # DVC-related files for versioning datasets
-│
-├── github/workflows/        # GitHub CI/CD workflows
-│
-├── model/                   # Model-related files (trained models, artifacts)
-│
-├── research/                # Jupyter Notebooks for analysis and experimentation
+├── model/                    # Model-related files (trained models, artifacts)
+├── research/                 # Jupyter Notebooks for analysis and experimentation
 │   ├── 01_data_ingestion.ipynb
 │   ├── 02_prepare_base_model.ipynb
 │   ├── 03_model_trainer.ipynb
 │   ├── 04_model_evaluation_with_mlflow.ipynb
 │   └── trials.ipynb
-│
-├── src/                     # Source code for CNN classifier
+├── src/                      # Source code for CNN classifier
 │   └── cnnClassifier/        # Main package
 │       ├── __init__.py
 │       ├── components/       # Pipeline components
@@ -66,23 +60,23 @@ End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/
 │           ├── __init__.py
 │           └── common.py
 │
-├── templates/               # HTML templates for UI
+├── templates/                # HTML templates for UI
 │   └── index.html
 │
-├── .dvcignore               # Ignore files for DVC
-├── .gitignore               # Ignore files for Git
-├── Cancer_UI.png            # Screenshot of UI
-├── Dockerfile               # Docker setup
-├── LICENSE                  # License file
-├── README.md                # Project documentation
-├── app.py                   # FastAPI/Flask-based application
-├── dvc.lock                 # DVC dependencies lock file
-├── dvc.yaml                 # DVC pipeline definition
-├── inputImage.jpg           # Example input image
-├── main.py                  # Main script entry point
-├── params.yaml              # Hyperparameter settings
-├── requirements.txt         # Required dependencies
-├── scores.json              # Model evaluation scores
-├── setup.py                 # Package setup script
-└── template.py              # Template script for structuring files
+├── .dvcignore                # Ignore files for DVC
+├── .gitignore                # Ignore files for Git
+├── Cancer_UI.png             # Screenshot of UI
+├── Dockerfile                # Docker setup
+├── LICENSE                   # License file
+├── README.md                 # Project documentation
+├── app.py                    # FastAPI/Flask-based application
+├── dvc.lock                  # DVC dependencies lock file
+├── dvc.yaml                  # DVC pipeline definition
+├── inputImage.jpg            # Example input image
+├── main.py                   # Main script entry point
+├── params.yaml               # Hyperparameter settings
+├── requirements.txt          # Required dependencies
+├── scores.json               # Model evaluation scores
+├── setup.py                  # Package setup script
+└── template.py               # Template script for structuring files
 ```
