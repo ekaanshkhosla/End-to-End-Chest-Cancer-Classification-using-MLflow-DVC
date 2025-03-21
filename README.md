@@ -25,6 +25,7 @@ End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/
 ├── config/                             # Configuration files
 │   ├── __init__.py
 │   └── configuration.py
+|
 ├── model/                              # Model-related files (trained models, artifacts)
 ├── research/                           # Jupyter Notebooks for analysis and experimentation
 │   ├── 01_data_ingestion.ipynb
@@ -32,6 +33,7 @@ End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/
 │   ├── 03_model_trainer.ipynb
 │   ├── 04_model_evaluation_with_mlflow.ipynb
 │   └── trials.ipynb
+|
 ├── src/                                # Source code for CNN classifier
 │   └── cnnClassifier/                  # Main package
 │       ├── __init__.py
